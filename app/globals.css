@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --color-background: #1E1E22;
+  --color-foreground: #FFFFFF;
+  --color-accent: #CEAA99;
+  --color-muted: #2A2A2E;
+  --color-muted-foreground: #9CA3AF;
+  --color-border: #333338;
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+}
+
+body {
+  background-color: #1E1E22;
+  color: #FFFFFF;
+}
